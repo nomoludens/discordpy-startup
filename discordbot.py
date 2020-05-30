@@ -24,5 +24,11 @@ async def neko(ctx):
 @bot.command()
 async def inu(ctx):
     await ctx.send('イヌ！')
+    
+@bot.command()
+async def nakaisan(ctx):
+    await ctx.send('https://scrapbox.io/nakai-lab-2020/yutaka_nakai')
+    
+    
 bot.run(token)
 
